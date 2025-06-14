@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <appSettings>
+    <add key="ConnectionDB" value="Data Source=localhost;Database=FINANCIAL_14;User id=sa;PWD=0" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+</configuration>

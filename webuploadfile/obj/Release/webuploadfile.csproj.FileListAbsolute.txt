@@ -1,0 +1,11 @@
+D:\苏州好用软件有限公司软件作品\客户昆山多宾陈列展示有限公司_报价系统软件\webuploadfile\bin\webuploadfile.dll
+D:\苏州好用软件有限公司软件作品\客户昆山多宾陈列展示有限公司_报价系统软件\webuploadfile\bin\webuploadfile.pdb
+D:\苏州好用软件有限公司软件作品\客户昆山多宾陈列展示有限公司_报价系统软件\webuploadfile\obj\Release\webuploadfile.dll
+D:\苏州好用软件有限公司软件作品\客户昆山多宾陈列展示有限公司_报价系统软件\webuploadfile\obj\Release\webuploadfile.pdb
+D:\苏州好用软件有限公司软件产品\21.客户19_宁波市江北永生橡胶制品厂_20161016\webuploadfile\bin\webuploadfile.dll.config
+D:\苏州好用软件有限公司软件产品\21.客户19_宁波市江北永生橡胶制品厂_20161016\webuploadfile\bin\webuploadfile.dll
+D:\苏州好用软件有限公司软件产品\21.客户19_宁波市江北永生橡胶制品厂_20161016\webuploadfile\bin\webuploadfile.pdb
+D:\苏州好用软件有限公司软件产品\21.客户19_宁波市江北永生橡胶制品厂_20161016\webuploadfile\obj\Release\webuploadfile.csprojAssemblyReference.cache
+D:\苏州好用软件有限公司软件产品\21.客户19_宁波市江北永生橡胶制品厂_20161016\webuploadfile\obj\Release\webuploadfile.csproj.CoreCompileInputs.cache
+D:\苏州好用软件有限公司软件产品\21.客户19_宁波市江北永生橡胶制品厂_20161016\webuploadfile\obj\Release\webuploadfile.dll
+D:\苏州好用软件有限公司软件产品\21.客户19_宁波市江北永生橡胶制品厂_20161016\webuploadfile\obj\Release\webuploadfile.pdb

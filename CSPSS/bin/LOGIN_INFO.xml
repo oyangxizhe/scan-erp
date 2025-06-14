@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <LOGIN_INFO>
+    <UNAME>sysadmin</UNAME>
+    <PWD>KmeFdLXwtzWSAKxhkVELBg==</PWD>
+    <IF_RECORD>Y</IF_RECORD>
+  </LOGIN_INFO>
+  <LOGIN_INFO>
+    <UNAME>admin</UNAME>
+    <PWD>KmeFdLXwtzWSAKxhkVELBg==</PWD>
+    <IF_RECORD>Y</IF_RECORD>
+  </LOGIN_INFO>
+</DocumentElement>

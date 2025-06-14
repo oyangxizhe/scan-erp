@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="服务器文件删除程序.exe" version="1.0.0.0" publicKeyToken="71dff5c8af0402cb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="服务器文件删除程序" version="1.0.0.7" language="neutral" processorArchitecture="msil" />
+    <commandLine file="服务器文件删除程序.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Interop.Excel.dll" size="1100392">
+      <assemblyIdentity name="Microsoft.Office.Interop.Excel" version="11.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>F9KcWGdatx3NMdBih72kWn9Kyzk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Vbe.Interop.dll" size="64088">
+      <assemblyIdentity name="Microsoft.Vbe.Interop" version="11.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TYuB9hyuoYvM3Fgsjd+TSTdMLbY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="office.dll" size="223800">
+      <assemblyIdentity name="office" version="11.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>qLZAFskrUjHV/TFbvevZR7hSGP4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XizheC.dll" size="248320">
+      <assemblyIdentity name="XizheC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/Dj8Z53JDjKpyk68cXlF4ciLpAQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="服务器文件删除程序.exe" size="7680">
+      <assemblyIdentity name="服务器文件删除程序" version="1.0.0.7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>aRUGKf0iI/9oovwlaczoS4bWZOI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="服务器文件删除程序.exe.config" size="315">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5mPScLsZlfZMYFAOphV7W/YHIgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-RUPOJDS\oyangxizhe" issuerKeyHash="bac7fbefc0550ae73fa189927837fbc506471dd7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jLTjZ5i5rBD36D/adxc5MlwrAyM=</DigestValue></Reference></SignedInfo><SignatureValue>UCM4o/Vm9pOdz1bicfEHKELntoSZPy1HQ1TblppdJZyX2h8n81FwoG6h3ZpCGs9bsTSmyxSYTsWsi1ZeDzReh/BfCpFu4ISXgc2OauQ2g9vJoE3Ctp9Bbz0sHvq4OKmtg7j2PxrQCr2xpYr3wCc33L4peU9cPQ5NN/5UL2pRwgs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6JgoK5sANHIx5w4qVk37MyvcD/BbNphHJMZxV8OcAMhTq6cVEjqMbzp+c/nhjo4NUMSPd4u/OWsIiXJYzHL10qAc1MOac9lrzGT97E9hvyOeq1EZ22VGh6r3hzAcOMvr2QVuOTeKuMvRrGrZHtIArrn9XBDTuktmWNBKfZdPPH0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="23032b5c32391777da3fe8f710acb99867e3b48c" Description="" Url=""><as:assemblyIdentity name="服务器文件删除程序.exe" version="1.0.0.0" publicKeyToken="71dff5c8af0402cb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-RUPOJDS\oyangxizhe</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>m9Hkt1Hs7Y2S1NTrFw4Ba/qryCE=</DigestValue></Reference></SignedInfo><SignatureValue>msD6iwexWQWTBeqzM1VZ11IKNx8gO40S5wHKPknCK51gGRwh8OsxC35fcwkS70YeykjZ7NX/AG2Edx0fYBIkNOamzvc68IptCow/2rj5Np1CvAo6nomu7npmihyPnrB8NdOZzs51sBuE/4bIt+Xzp5Ro2AqQ27WaLV/sWFOkg0g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6JgoK5sANHIx5w4qVk37MyvcD/BbNphHJMZxV8OcAMhTq6cVEjqMbzp+c/nhjo4NUMSPd4u/OWsIiXJYzHL10qAc1MOac9lrzGT97E9hvyOeq1EZ22VGh6r3hzAcOMvr2QVuOTeKuMvRrGrZHtIArrn9XBDTuktmWNBKfZdPPH0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQRY6+9Xu3DIBCvUMlXBEfjzANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQARABFAFMASwBUAE8AUAAtAFIAVQBQAE8ASgBEAFMAXABvAHkAYQBuAGcAeABpAHoAaABlMB4XDTE2MDkwMjA2MjIzMloXDTE3MDkwMjEyMjIzMlowPzE9MDsGA1UEAx40AEQARQBTAEsAVABPAFAALQBSAFUAUABPAEoARABTAFwAbwB5AGEAbgBnAHgAaQB6AGgAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA6JgoK5sANHIx5w4qVk37MyvcD/BbNphHJMZxV8OcAMhTq6cVEjqMbzp+c/nhjo4NUMSPd4u/OWsIiXJYzHL10qAc1MOac9lrzGT97E9hvyOeq1EZ22VGh6r3hzAcOMvr2QVuOTeKuMvRrGrZHtIArrn9XBDTuktmWNBKfZdPPH0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQAb3B4siyvrLQNIkhA3A7JNWhHX/bDneZJugcRXizzQxWB4qOHRMWjdOYU2+nP/1mIHwQeD2gsjdi8l6yd2NGhf4CYm9LHmXwFMKiNwYQNzNl1Ms4mrINmiQN6vaDVXu40gIzPiYpSIPq+qHX99Fx/jju+o1KXZvtDnO8eXmrnC1w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
